@@ -1,0 +1,29 @@
+html {
+    background-color: var(--bgColor);
+}
+
+body {
+    font-family: var(--font);
+    color: var(--darkColor);
+    text-size-adjust: 100%;
+}
+
+.container {
+    width: var(--container-default-width);
+    max-width: var(--container-max-width);
+    margin: 0 auto;
+}
+
+
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1em;
+}
+
+
+
+/*a {
+    color: var(--darkColor);
+    font-weight: bold;
+    text-decoration: underline;
+}*/

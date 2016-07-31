@@ -1,0 +1,34 @@
+{
+    "paths": {
+        "project":  "./",
+        "appRoot":  "app/",
+        "tmp":      ".tmp/",
+        "dist":     "dist/",
+
+        "src": {
+            "scss":   "styles",
+            "js":     "scripts",
+            "images": "images",
+            "fonts":  "fonts"
+
+        },
+        "css": {
+            "entry":  "app.css",
+            "all":    "styles/**/*.css",
+            "dist":   "dist/styles"
+        },
+        "js": {
+            "entry":  "./assets/js/local/app.js",
+            "vendor": "./assets/js/vendor/*.js",
+            "dist":   "./assets/js",
+            "all":    "./assets/js/**/*.js"
+        }
+    },
+    "names": {
+        "css": "app.min.css",
+        "js": {
+            "app":    "app.min.js",
+            "vendor": "vendor.min.js"
+        }
+    }
+}

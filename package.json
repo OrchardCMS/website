@@ -2,11 +2,12 @@
   "name": "orchardproject.net",
   "version": "1.0.0",
   "scripts": {
-    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run lite\" ",
+    "start": "tsc && concurrently \"npm run tsc:w\" \"npm run gulp:w\" \"npm run lite\" ",
     "lite": "lite-server",
     "postinstall": "typings install",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
+    "gulp:w": "gulp watch",
     "typings": "typings"
   },
   "license": "ISC",
@@ -27,9 +28,28 @@
     "zone.js": "^0.6.12"
   },
   "devDependencies": {
+    "autoprefixer": "^6.3.7",
+    "babel-core": "^6.11.4",
+    "babel-preset-es2015": "^6.9.0",
     "concurrently": "^2.0.0",
+    "css-mqpacker": "^5.0.1",
+    "cssnano": "^3.7.3",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-header": "^1.8.7",
+    "gulp-load-plugins": "^1.2.4",
+    "gulp-postcss": "^6.1.1",
+    "gulp-size": "^2.1.0",
+    "gulp-typescript": "^2.13.6",
     "lite-server": "^2.2.0",
-    "typescript": "^1.8.10",
-    "typings":"^1.0.4"
+    "postcss-bem": "^0.4.1",
+    "postcss-bem-linter": "^2.5.1",
+    "postcss-cssnext": "^2.7.0",
+    "postcss-import": "^8.1.2",
+    "postcss-nested": "^1.0.0",
+    "postcss-normalize": "^0.3.0",
+    "postcss-reporter": "^1.4.1",
+    "run-sequence": "^1.2.2",
+    "typings": "^1.0.4"
   }
 }

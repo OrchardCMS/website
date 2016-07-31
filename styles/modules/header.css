@@ -1,0 +1,42 @@
+#header {
+       display: flex;
+       flex-direction: column;
+       justify-content: space-between;
+      /*   flex-wrap: nowrap;
+
+        align-content: stretch;
+        align-items: flex-start;*/
+    height: 168px;
+}
+
+.branding {
+    margin-left: 20px;
+    /*text-align: center;*/
+/*    width: 30%;*/
+}
+
+.cta {
+    margin-top: -50px;
+    text-align: right;
+    height:50px;
+    margin-right: 20px;
+
+    @media (--min-medium-screen) {
+        height:30px;
+    }
+}
+
+#logo {
+    width: 110px;
+    height:50px;
+    margin-top: 20px;
+
+    @media (--min-medium-screen) {
+        width: 220px;
+        height:100px;
+    }
+}
+
+.logo {
+    fill: var(--mainColor);
+}

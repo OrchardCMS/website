@@ -1,0 +1,27 @@
+:root {
+    --bgColor: #ffffff;
+    --mainColor: #757a71;
+    --lightColor: #bec7b8;
+    --mediumColor: #5d6159;
+    --darkColor: #383a36;
+
+    --font: 'Open Sans', sans-serif;
+    --ctaFont: 'BebasNeue';
+
+    --container-default-width: 100%;
+    --container-max-width: 1440px;
+
+
+
+    @custom-media --only-xsmall-screen (width <= 543px);
+    @custom-media --only-small-screen (width >= 544px) and (width <= 767px);
+    @custom-media --only-medium-screen (width >= 768px) and (width <= 991px);
+    @custom-media --only-large-screen (width >= 992px) and (width <= 1199px);
+    @custom-media --only-xlarge-screen (width >= 1200px);
+
+
+    @custom-media --min-small-screen (min-width: 544px);
+    @custom-media --min-medium-screen (min-width: 768px);
+    @custom-media --min-large-screen (min-width: 992px);
+    @custom-media --min-xlarge-screen (min-width: 1200px);
+}

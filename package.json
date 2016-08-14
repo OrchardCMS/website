@@ -45,6 +45,7 @@
     "postcss-bem": "^0.4.1",
     "postcss-bem-linter": "^2.5.1",
     "postcss-cssnext": "^2.7.0",
+    "postcss-for": "^2.1.1",
     "postcss-import": "^8.1.2",
     "postcss-nested": "^1.0.0",
     "postcss-normalize": "^0.3.0",

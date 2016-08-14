@@ -29,6 +29,9 @@
     max-height: 100%;
     height: 100%;
     position: absolute;
+    fill-rule: evenodd;
+    clip-rule: evenodd;
+    fill: #BEC6B8;
 
     @media (--min-medium-screen) {
         display: inline;

@@ -28,3 +28,42 @@ a {
     text-decoration: underline;
     cursor: pointer;
 }
+
+.leaf {
+    fill: var(--lightColor);
+    top: 20px;
+
+    &__1 {
+        margin-top: 40px;
+        margin-left: -100px;
+    }
+
+    &__2 {
+        margin-top: -30px;
+        margin-left: 100px;
+    }
+
+    &__3 {
+        margin-top: 0px;
+        margin-left: 150px;
+    }
+
+    &__4 {
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+}
+
+/*@for $i from 0 to 350 by 10 {
+    .leaf--$(i) { 
+        transform-origin: 50% 50%;
+        transform: rotate($(i)deg); 
+    }
+}*/
+
+.leaf-path {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

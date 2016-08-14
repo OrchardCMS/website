@@ -11,6 +11,7 @@ import cssImport from 'postcss-import';
 import normalize from 'postcss-normalize';
 import mqpacker from 'css-mqpacker';
 import cssnano from 'cssnano';
+import postcssfor from 'postcss-for';
 
 const $ = gulpLoadPlugins();
 
@@ -22,6 +23,7 @@ gulp.task('styles', ['styles-lint'], () => {
         bem({separators: {
             modifier: '--'
         }}),
+        postcssfor,
         cssnext({browsers: AUTOPREFIXER_BROWSERS}),
         normalize,
         mqpacker({sort: true})//,

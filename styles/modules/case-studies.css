@@ -1,3 +1,37 @@
 .case-studies {
     text-align:center;
+    width: 80%;
+
+    &__gallery {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        list-style: none;
+        padding: 0px;
+        margin: 40px 0px 40px 0px;
+    }
+
+    &__shot {
+        min-width: 310px;
+        max-width: 310px;
+        margin: 40px;
+    }
+
+    &__logo {
+        display:block;
+        margin: 0 auto;
+        min-width: 150px;
+        max-width: 150px;
+    }
+
+    &__seemore {
+        display: block;
+        margin-top: 30px;
+        font-size: 14px;
+    }
+
+    &__try {
+        margin-top: 46px;
+    }
+
 }

@@ -26,4 +26,5 @@ a {
     color: var(--darkColor);
     font-weight: bold;
     text-decoration: underline;
+    cursor: pointer;
 }

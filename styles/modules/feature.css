@@ -1,0 +1,46 @@
+.feature {
+    margin-top: 30px;
+    width: 80%;
+
+    &__text {
+        margin-bottom: 40px;
+        font-weight: 300;
+        text-align: center;
+        font-size: 26px;
+        font-size: 5.8vw;
+
+        @media (--min-small-screen) {
+            font-size: 4.8vw;
+        }
+
+        @media (--min-large-screen) {
+            font-size: 4.0vw;
+        } 
+
+        &--bold {
+            font-weight: 700;
+        }
+    } 
+}
+
+
+#tree {
+    display: none;
+    width: 100%;
+    max-height: 100%;
+    height: 100%;
+    position: absolute;
+
+    @media (--min-medium-screen) {
+        display: inline;
+        top: 286px;
+        left: -660px;
+    }
+
+
+
+    @media (--min-xlarge-screen) {
+        top: 300px;
+        left: -794px; 
+    }
+}

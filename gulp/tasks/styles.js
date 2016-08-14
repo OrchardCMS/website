@@ -24,7 +24,7 @@ gulp.task('styles', ['styles-lint'], () => {
         }}),
         cssnext({browsers: AUTOPREFIXER_BROWSERS}),
         normalize,
-        mqpacker//,
+        mqpacker({sort: true})//,
         //cssnano({autoprefixer: false})
     ];
 

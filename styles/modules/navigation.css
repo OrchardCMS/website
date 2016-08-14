@@ -35,17 +35,54 @@
        /* border: solid red 1px;*/
         white-space: nowrap;
 
-        &.active :first-child {
-            color: var(--darkColor);
-            padding-bottom: 5px;
-            border-bottom: solid var(--lightColor) 1px;
-        }
-
         & a {
             color: var(--mediumColor);
             font-weight: normal;
-            text-decoration: none;
+              padding-bottom: 8px;
+              text-decoration: none;
+              position: relative;
         }
+
+        &.active > a {
+             color: var(--darkColor);
+         }
+
+        & a:before {
+              content: "";
+              position: absolute;
+              width: 100%;
+              height: 1px;
+              bottom: 0;
+              left: 0;
+              background-color: var(--lightColor);
+              visibility: hidden;
+              transform: scaleX(0);
+              transition: all 0.3s ease-in-out 0s;
+
+           }
+
+            &.active > a:before {
+                 content: "";
+                 position: absolute;
+                 width: 100%;
+                 height: 1px;
+                 bottom: 0;
+                 left: 0;
+                 background-color: var(--lightColor);
+                 visibility: visible;
+                 transform: scaleX(1);
+             }
+
+            & a:hover:before {
+                visibility: visible;
+                color: var(--darkColor);
+                transform: scaleX(1);
+            }
+
+            & a:hover {
+                  color: var(--darkColor);
+                  transform: scaleX(1);
+            }
 
         @media (min-width: 731px) {
             flex: 0 0 auto;

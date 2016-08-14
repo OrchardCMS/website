@@ -1,12 +1,12 @@
 #header {
-       display: flex;
-       flex-direction: column;
-       justify-content: space-between;
-      /*   flex-wrap: nowrap;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /*   flex-wrap: nowrap;
 
-        align-content: stretch;
-        align-items: flex-start;*/
-    height: 168px;
+    align-content: stretch;
+    align-items: flex-start;
+    height: 168px;*/
 }
 
 .branding {
@@ -33,7 +33,8 @@
 
     @media (--min-medium-screen) {
         width: 220px;
-        height:100px;
+        height: 70px;
+        margin-top: 40px;
     }
 }
 

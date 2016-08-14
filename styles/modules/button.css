@@ -1,18 +1,14 @@
 .btn {
     color: var(--bgColor);
     background-color: var(--mediumColor);
-    border:solid var(--lightColor) 2px;
+    border:solid var(--lightColor) 1px;
     border-radius: 5px;
     padding: 4px 12px 8px 12px;
     font-family: var(--ctaFont);
-    font-size: 18px;
+    font-size: var(--fontBase);
 
     &__headerCTA {
         right: 20px;
-        margin-top: -24px;
-
-         @media (--min-medium-screen) {
-            margin-top: -74px;
-         }
+         margin-top: 46px;
     }
 }

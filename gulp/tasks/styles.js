@@ -20,10 +20,10 @@ gulp.task('styles', ['styles-lint'], () => {
 
     var processors = [
         cssImport,
-        bem({separators: {
-            modifier: '--'
-        }}),
-        postcssfor,
+        // bem({separators: {
+        //     modifier: '--'
+        // }}),
+        // postcssfor,
         cssnext({browsers: AUTOPREFIXER_BROWSERS}),
         normalize,
         mqpacker({sort: true})//,

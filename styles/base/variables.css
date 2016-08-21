@@ -9,6 +9,7 @@
     --ctaFont: 'BebasNeue';
     --fontBase: 18px;
     --fontSmall: 16px;
+    --fontMedium: 22px;
     --fontLarge: 26px;
 
     --container-default-width: 100%;
@@ -27,4 +28,5 @@
     @custom-media --min-medium-screen (min-width: 768px);
     @custom-media --min-large-screen (min-width: 992px);
     @custom-media --min-xlarge-screen (min-width: 1200px);
+    @custom-media --min-xxlarge-screen (min-width: 1700px);
 }

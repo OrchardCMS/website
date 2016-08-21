@@ -18,14 +18,14 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1em;
-    margin:0.5em;
+    margin:0.3em;
+    font-weight: normal;
 }
 
 h2 {
-    font-weight: normal;
-    font-size: 26px;
     
-    
+    font-size: 24px;
+        
     @media (--min-large-screen) {
         font-size: 36px;
         
@@ -50,12 +50,17 @@ h3 {
         content: '';
         display: block;
         margin: 0 auto;
-        margin-top: 30px;
+        margin-top: 20px;
     }
 }
 
 img {
-    width: 100%;
+    max-width: 100%;
+    height: auto;
+}
+
+.icon {
+    fill: var(--mediumColor);
 }
 
 a {
@@ -71,10 +76,19 @@ blockquote {
 }
 
 .leaf-path {
+    margin-left: -100px;
     width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    @media (--min-small-screen) {
+        margin-left: -80px;
+    }
+
+    @media (--min-large-screen) {
+        margin: auto;
+    }
 }
 
 .leaf {
@@ -99,6 +113,31 @@ blockquote {
     &__4 {
         margin-top: 50px;
         margin-left: 30px;
+    }
+
+    &__5 {
+        margin-top: -20px;
+        margin-left: 400px;
+    }
+
+    &__6 {
+        margin-top: 20px;
+        margin-left: 460px;
+    }
+
+    &__7 {
+        margin-top: 50px;
+        margin-left: 400px;
+    }
+
+    &__8 {
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+
+    &__9 {
+        margin-top: 10px;
+        margin-left: 245px;
     }
 }
 

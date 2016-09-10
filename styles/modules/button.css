@@ -12,3 +12,13 @@
         margin-top: 46px;
     }
 }
+
+.btn-secondary {
+    color: var(--mainColor);
+    background-color: var(--bgColor);
+    border:solid var(--mainColor) 1px;
+    border-radius: 5px;
+    padding: 4px 12px 8px 12px;
+    font-family: var(--ctaFont);
+    font-size: var(--fontBase);
+}

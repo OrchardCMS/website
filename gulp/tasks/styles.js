@@ -12,10 +12,11 @@ import normalize from 'postcss-normalize';
 import mqpacker from 'css-mqpacker';
 import cssnano from 'cssnano';
 import postcssfor from 'postcss-for';
+import responsiveType from 'postcss-responsive-type';
 
 const $ = gulpLoadPlugins();
 
-gulp.task('styles', ['styles-lint'], () => {
+gulp.task('styles', [/*'styles-lint'*/], () => {
     const AUTOPREFIXER_BROWSERS = ['last 1 version'];
 
     var processors = [
@@ -24,7 +25,9 @@ gulp.task('styles', ['styles-lint'], () => {
         //     modifier: '--'
         // }}),
         // postcssfor,
+        
         cssnext({browsers: AUTOPREFIXER_BROWSERS}),
+        responsiveType(),
         normalize,
         mqpacker({sort: true})//,
         //cssnano({autoprefixer: false})

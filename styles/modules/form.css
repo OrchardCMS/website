@@ -1,5 +1,6 @@
 .tryform {
     text-align: center;
+    font-size: var(--fontBase);
     
     &__textbox {
         width: 100%;
@@ -32,12 +33,12 @@
         display: block;
 
         @media (--min-small-screen) {
-            width: 408px;
+            width: auto;
             margin: 0 auto;
         }
 
         @media (--min-large-screen) {
-            width: 120px;
+            width: auto;
             display: inline;
         }
     }

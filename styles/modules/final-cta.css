@@ -1,0 +1,14 @@
+.final-cta {
+    text-align:center;
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+
+    &__try {
+        margin: 20px 20px 20px 0px;
+    }
+
+    &__heading {
+        font-size: var(--fontLarge);
+    }
+}

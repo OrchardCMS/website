@@ -28,9 +28,11 @@
     &__item {
         flex: 1 0 auto;
         padding: 4px 10px 8px 10px;
-
+        font-size: responsive 18px 36px;
+        lower-font-range: 800px;
+        upper-font-range: 1240px;
         font-family: var(--ctaFont);
-        font-size: 20px;
+        /*font-size: 20px;*/
         color: var(--mediumColor);
        /* border: solid red 1px;*/
         white-space: nowrap;
@@ -38,9 +40,9 @@
         & a {
             color: var(--mediumColor);
             font-weight: normal;
-              padding-bottom: 8px;
-              text-decoration: none;
-              position: relative;
+            padding-bottom: 8px;
+            text-decoration: none;
+            position: relative;
         }
 
         &.active > a {
@@ -90,7 +92,7 @@
         }
 
         @media (--min-xlarge-screen) {
-            font-size: 26px;
+            /*font-size: 26px;*/
             padding: 4px 20px 8px 20px;
         }
     }

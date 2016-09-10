@@ -24,10 +24,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
     
-    font-size: 24px;
+    font-size: var(--fontMedium);
         
     @media (--min-large-screen) {
-        font-size: 36px;
+        font-size: var(--fontXLarge);
         
     }
 
@@ -138,6 +138,31 @@ blockquote {
     &__9 {
         margin-top: 10px;
         margin-left: 245px;
+    }
+
+    &__10 {
+        margin-top: 30px;
+        margin-left: 150px;
+    }
+
+    &__11 {
+        margin-top: 0px;
+        margin-left: 230px;
+    }
+
+    &__12 {
+        margin-top: -15px;
+        margin-left: 380px;
+    }
+
+    &__13 {
+        margin-top: -15px;
+        margin-left: 490px;
+    }
+
+    &__14 {
+        margin-top: 10px;
+        margin-left: 395px;
     }
 }
 

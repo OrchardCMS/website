@@ -50,6 +50,7 @@
     "postcss-nested": "^1.0.0",
     "postcss-normalize": "^0.3.0",
     "postcss-reporter": "^1.4.1",
+    "postcss-responsive-type": "^0.4.0",
     "run-sequence": "^1.2.2",
     "typings": "^1.0.4"
   }

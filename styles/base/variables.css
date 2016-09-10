@@ -8,12 +8,14 @@
     --font: 'Open Sans', sans-serif;
     --ctaFont: 'BebasNeue';
     --fontBase: 18px;
+    --fontXSmall: 14px;
     --fontSmall: 16px;
-    --fontMedium: 22px;
+    --fontMedium: 24px;
     --fontLarge: 26px;
+    --fontXLarge: 36px;
 
     --container-default-width: 100%;
-    --container-max-width: 1440px;
+    --container-max-width: 2000px;
 
 
 
@@ -21,7 +23,8 @@
     @custom-media --only-small-screen (width >= 544px) and (width <= 767px);
     @custom-media --only-medium-screen (width >= 768px) and (width <= 991px);
     @custom-media --only-large-screen (width >= 992px) and (width <= 1199px);
-    @custom-media --only-xlarge-screen (width >= 1200px);
+    @custom-media --only-xlarge-screen (width >= 1200px) and (width <= 1699px);
+    @custom-media --only-xxlarge-screen (width >= 1700px);
 
 
     @custom-media --min-small-screen (min-width: 544px);
@@ -29,4 +32,5 @@
     @custom-media --min-large-screen (min-width: 992px);
     @custom-media --min-xlarge-screen (min-width: 1200px);
     @custom-media --min-xxlarge-screen (min-width: 1700px);
+    
 }

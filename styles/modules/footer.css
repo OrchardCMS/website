@@ -1,0 +1,39 @@
+.footer {
+    background-color: var(--lightColor);
+    height: 260px;
+    font-size: var(--fontXSmall);
+
+    &__nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style-type: none;
+        margin: 0;
+        padding: 40px 20px 0px 20px;
+    }
+
+    &__item {
+        padding: 4px 10px 8px 10px;
+    }
+
+    &__social-icons {
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    &__social-icon {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+    &__legal {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 10px;
+    }
+
+    &__link{
+        color: var(--mediumColor);
+    }
+}

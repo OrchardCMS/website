@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 html {
     background-color: var(--bgColor);
 }
@@ -18,12 +22,13 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     line-height: 1em;
-    margin:0.3em;
+    margin:0;
     font-weight: normal;
 }
 
 h2 {
-    
+    margin-top: 32px;
+    margin-bottom: 12px;
     font-size: var(--fontMedium);
         
     @media (--min-large-screen) {
@@ -73,6 +78,10 @@ a {
 blockquote {
     font-weight: 300;
     font-style: italic;
+}
+
+li {
+    line-height: 1.5em;
 }
 
 .leaf-path {

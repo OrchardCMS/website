@@ -99,6 +99,107 @@
 
 }
 
+.sidenav {
+
+    display: none;
+    margin-bottom: 20px;
+
+    @media (--min-large-screen) {
+        margin-top: 30px; 
+        display: block;
+    }
+
+    & > ul {
+        padding: 0px;
+        margin: 0px;
+
+        @media (--min-large-screen) {
+            padding-left: 50px;
+        }
+    }
+
+    & > ul > li {
+        padding: 0px;
+        margin: 0px;
+    }
+
+    &__toggle {
+        font-size: var(--fontMedium);
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        @media (--min-large-screen) {
+            display: none;
+        }
+    } 
+    
+    &__arrow {
+        float: right;
+        margin-top: 5px;
+        fill: var(--mainColor);
+    }
+
+     &__item {
+        list-style-type: none;
+        font-family: var(--ctaFont);
+        color: var(--mediumColor);
+        font-size: var(--fontXLarge);
+        font-weight: normal;
+        margin-bottom: 20px;
+
+        & a {
+            color: var(--mediumColor);
+            padding-bottom: 8px;
+            text-decoration: none;
+            position: relative;
+            font-weight: normal;
+        }
+
+        &.active > a:before {
+                 content: "";
+                 position: absolute;
+                 width: 100%;
+                 height: 1px;
+                 bottom: 0;
+                 left: 0;
+                 background-color: var(--lightColor);
+                 visibility: visible;
+             }
+     }
+
+     &__subnav {
+         display: none;
+
+         @media (--min-large-screen) {
+            display: block;
+        }
+     }
+
+     &__subitem {
+        list-style-type: none;
+        font-family: var(--font);
+        color: var(--mediumColor);
+        font-size: 22px;
+        line-height: 2em;
+        font-weight: normal;
+
+        &:first-child {
+            margin-top: 20px;
+        }
+
+        & a {
+            color: var(--mediumColor);
+            padding-bottom: 8px;
+            text-decoration: none;
+            font-weight: normal;
+        }
+
+        &.active > a {
+            font-weight: bold;
+        }
+         
+     }
+}
 /*
 .hamburger {
     width: 30px;

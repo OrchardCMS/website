@@ -1,0 +1,119 @@
+.content {
+    display: flex;
+    flex-direction: column;
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+
+        @media (--min-large-screen) {
+            flex-direction: row;
+        }
+        
+    }
+
+    &__main {
+        max-width: 970px;
+        padding: 30px;
+    }
+
+    &__spotlight {
+        height: 150px;
+        display: flex;
+
+        @media (--min-medium-screen) {
+            height: 200px;
+        }
+
+        @media (--min-large-screen) {
+            height: 300px;
+        }
+
+        @media (--min-xlarge-screen) {
+            height: 531px;
+        }
+    }
+
+    &__heading {
+        align-self: flex-end;
+        font-family: var(--ctaFont);
+
+        font-size: 42px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+        @media (--min-large-screen) {
+            font-size: 50px;
+            margin-left: 325px;
+            margin-bottom: 30px;
+        }
+
+        @media (--min-xlarge-screen) {
+            font-size: 70px;
+            margin-left: 410px;
+        }
+        
+    }
+}
+
+.breadcrumb {
+    margin-top: -20px;
+}
+
+.video-container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 1em;
+  display: flex;
+  flex-direction: column-reverse;
+}
+
+.video {
+    position: relative;
+    margin: 1em 0;
+}
+
+.video::after {
+  content: '';
+  display: block;
+  /* intrinsic aspect ratio */
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.video iframe,
+.video object,
+.video embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+aside {
+
+    width: 100%;
+    text-align: center;
+
+     @media (--min-large-screen) {
+        display: block;
+        text-align: left;
+        background-color: #fff;
+        min-height: 100vh;
+        width: 300px;
+        margin-top: -112px;
+    }
+
+    @media (--min-xlarge-screen) {
+        width: 380px;
+    }
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    @media (--min-large-screen) {
+        width: calc(100% - 380px);
+    }
+}

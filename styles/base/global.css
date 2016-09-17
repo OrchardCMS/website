@@ -100,9 +100,14 @@ li {
     }
 }
 
+.grass {
+    fill: var(--lightColor);
+}
+
 .leaf {
     fill: var(--lightColor);
     top: 20px;
+    width: 50px;
 
     &__1 {
         margin-top: 40px;

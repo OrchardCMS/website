@@ -1,7 +1,15 @@
 .footer {
     background-color: var(--lightColor);
-    height: 260px;
+    min-height: 260px;
     font-size: var(--fontXSmall);
+
+    &__container {
+        display: flex;
+    }
+
+    &__group {
+        flex-grow: 1;
+    }
 
     &__nav {
         display: flex;
@@ -10,6 +18,11 @@
         list-style-type: none;
         margin: 0;
         padding: 40px 20px 0px 20px;
+
+        @media (--min-medium-screen) {
+            display: block;
+        }
+
     }
 
     &__item {
@@ -20,6 +33,10 @@
         text-align: center;
         margin-top: 20px;
         margin-bottom: 20px;
+
+        @media (--min-medium-screen) {
+            text-align: left;
+        }
     }
 
     &__social-icon {
@@ -28,12 +45,38 @@
     }
 
     &__legal {
-        margin-top: 40px;
+        margin: 0;
         text-align: center;
-        font-size: 10px;
+        font-size: 12px;
+        background-color: var(--lightColor);
+
+        @media (--min-medium-screen) {
+            font-size: 14px;
+        }
+
+        @media (--min-medium-screen) {
+            margin-top: -20px;
+            padding: 30px;
+        }
     }
 
     &__link{
         color: var(--mediumColor);
+    }
+}
+
+
+
+.pluralsight, .teamcity {
+    
+    fill: var(--mediumColor);
+
+    &__container {
+        display: none;
+        padding: 30px;
+
+        @media (--min-medium-screen) {
+            display: block;
+        }
     }
 }

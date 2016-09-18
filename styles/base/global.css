@@ -102,6 +102,7 @@ li {
 
 .grass {
     fill: var(--lightColor);
+    margin-bottom: -5px;
 }
 
 .leaf {

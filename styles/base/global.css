@@ -73,6 +73,7 @@ a {
     font-weight: bold;
     text-decoration: underline;
     cursor: pointer;
+    line-height: 2em;
 }
 
 blockquote {

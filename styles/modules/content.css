@@ -52,6 +52,24 @@
             font-size: 70px;
             margin-left: 410px;
         }
+    }
+
+    &__heading--full {
+        align-self: flex-end;
+        font-family: var(--ctaFont);
+
+        font-size: 42px;
+        margin-left: 20px;
+        margin-bottom: 20px;
+
+        @media (--min-large-screen) {
+            font-size: 50px;
+            margin-bottom: 30px;
+        }
+
+        @media (--min-xlarge-screen) {
+            font-size: 70px;
+        }
         
     }
 }

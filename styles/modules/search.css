@@ -1,0 +1,11 @@
+.search {
+    &__results {
+        list-style: none;
+        padding: 0px;
+    }
+
+    &__result a {
+        line-height: 1.5em;
+    }
+
+}

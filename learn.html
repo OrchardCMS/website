@@ -21,6 +21,7 @@
 </head>
 
 <body>
+    <orchard-app></orchard-app>
      <svg style="display: none">
         <symbol id="logo" viewBox="0 0 380 100" preserveAspectRatio="xMinYMin meet">
              <g>
@@ -45,7 +46,7 @@
                 <ul class="nav__navBar">
                     <li class="nav__item"><a href="/">Home</a></li>
                     <li class="nav__item active"><a href="/getting-started.html">Getting Started</a></li>
-                    <li class="nav__item"><a href="#">Resources</a></li>
+                    <li class="nav__item"><a href="/learn.html">Resources</a></li>
                     <li class="nav__item"><a href="#">Themes & Modules</a></li>
                     <li class="nav__item"><a href="#">Get Involved</a></li>
                     <li class="nav__item"><a href="#">Showcase</a></li>
@@ -58,7 +59,7 @@
     </header>
     <div class="content">
         <div class="content__spotlight" style="background:url(/assets/images/content/spotlight-books.png) no-repeat center top; background-size: cover;">
-            <h1 class="content__heading">Getting Started</h1>
+            <h1 class="content__heading">Learn</h1>
         </div>
 
         <div class="content__container">
@@ -66,7 +67,7 @@
                 <button type="button" class="sidenav__toggle btn-secondary">Menu <svg class="sidenav__arrow" width="20" height="20" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000"><path d="M 96.00,96.00l-96.00,96.00l 256.00,256.00l 256.00-256.00l-96.00-96.00L 256.00,256.00L 96.00,96.00z" ></path></svg></button>
                 <nav class="sidenav" role="navigation">
                     <ul>
-                        <li class="sidenav__item active"><a href="/getting-started.html">Getting Started</a>
+                        <li class="sidenav__item active"><a href="/learn.html">Learn</a>
                             <ul class="sidenav__subnav">
                                 <li class="sidenav__subitem active"><a href="#overview">Overview</a></li>
                                 <li class="sidenav__subitem"><a href="#overview">Overview</a></li>
@@ -75,9 +76,6 @@
                                 <li class="sidenav__subitem"><a href="#overview">Overview</a></li>
                                 <li class="sidenav__subitem"><a href="#overview">Overview</a></li>
                             </ul>
-                        </li>
-                        <li class="sidenav__item">
-                            Learn
                         </li>
                         <li class="sidenav__item">
                             Documentation
@@ -94,35 +92,18 @@
 
             <main class="content__main">
                 <div class="breadcrumb">
-                    <a href="/">Home</a> &gt;<span> Getting Started</span>
+                    <a href="/">Home</a> &gt;<a href="/resources.html"> Resources</a> </span>&gt;<span> Learn</span>
                 </div>
-                <h2>Overview</h2>
+                <h2>Learn</h2>
                 <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
                     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
                     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
                     nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <ol>
-                    <li><a href="#">Download or Try?</a></li>
-                    <li><a href="#">Orchard Setup</a></li>
-                    <li><a href="#">Configure Blog</a></li>
-                    <li><a href="#">Add Navigation</a></li>
-                    <li><a href="#">Create a contact us page</a></li>
-                </ol>
-                <h2>Download or Try?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <h2>Orchard Setup</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                    commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
-                    nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
-                <div class="video-container">
-                    <div class="video">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/3mb57fD5BKI" frameborder="0" allowfullscreen></iframe>
-                    </div>
-                </div>
+                     
+                    <article-search></article-search>
+
+                     
+               
             </main>
         </div>
     </div>

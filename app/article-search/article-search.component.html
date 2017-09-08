@@ -1,0 +1,17 @@
+<form class="form" name="searchForm" acton="" method="post">
+    <input type="text" class="textbox" #term (keyup)="search(term.value)" autofocus /> <button class="btn tryform__btn">Search</button>
+</form>
+
+<ul class="search__results">
+    <li class="search__result" *ngFor="let article of articles">
+        <h3><a href="">{{ article.title }}</a></h3>
+        <div>
+            <img src="" alt="" />
+            <p>Microsoft are running a free program called Visual Studio Dev Essentials. It has a range of useful and not so
+                useful 'developer benefits' included in it. Two that I've found valuable are the 3 month free Pluralsight
+                subscription and the free monthly Azure credits. There are a broad range of other resources included though
+                and from the ones I've tried they are totally free-to-try, not "add your credit card and remember to cancel
+                it before we charge you".</p>
+        </div>
+    </li>
+</ul>

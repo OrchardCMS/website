@@ -1,0 +1,235 @@
+{
+  "rss": {
+    "-version": "2.0",
+    "channel": {
+      "title": "Recent Posts and Articles",
+      "link": "http://orchardproject.net:80/",
+      "description": "Recent Posts and Articles",
+      "item": [
+        {
+          "title": "Visual Studio Dev Essentials program has Orchard developer friendly resources",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35791",
+          "description": "<p>Microsoft are running a free program called <a href=\"https://www.visualstudio.com/products/visual-studio-dev-essentials-vs\">Visual Studio Dev Essentials</a>. It has a range of useful and not so useful 'developer benefits' included in it.</p>
+<p>Two that I've found valuable are the 3 month free Pluralsight subscription and the free monthly Azure credits. There are a broad range of other resources included though and from the ones I've tried they are totally free-to-try, not \"add your credit card and remember to cancel it before we charge you\".</p>
+<p>The free 3 month Pluralsight subscription gives you access to a ton of topics, but there are also two Orchard-specific video courses:</p>
+<ul>
+<li><a href=\"https://www.pluralsight.com/courses/orchard-fundamentals\">Orchard Fundamentals</a></li>
+<li><a href=\"https://www.pluralsight.com/courses/adv-orchard\">Advanced Orchard</a></li>
+</ul>
+<p>The courses target Orchard v1.4 but almost everything is still applicable today (for example Contrib.Taxonomies is now a core module, ContentParts can now take advantage of infoset and some minor admin panel UI differences) but it is a great introduction to learning Orchard.</p>
+<p>The Azure Developer Benefit includes $25 a month to spend on Azure for one year. If you want to spend more than that you can uncap the subscription and use it as a discounted starter package to get up and running with your website for the first year.</p>",
+          "pubDate": "Thu, 15 Sep 2016 11:16:13 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35791"
+          }
+        },
+        {
+          "title": "How To: Add \"placeholder\" attribute to Text Field in Dynamic Forms",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35790",
+          "description": "<p>HTML 5, has a very useful attribute called \"placeholder\", it is used to display a watermark text on the input field when it's empty, but text field and text area elements in the Dynamic Forms module don't have this attribute out of the box, and we will learn how to add such attribute in this post.</p>",
+          "pubDate": "Sun, 04 Sep 2016 11:34:59 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35790"
+          }
+        },
+        {
+          "title": "How To: Add Custom \"Dictionary Token\"",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35789",
+          "description": "<p>We all definitely used the tokens feature of Orchard before, which provide us a smart way to replace strings with custom data, orchard has the basic tokens built in out of the box (like: Content, Text, Url ... etc), with the ability to connect tokens in chains to be more useful and accessable, and to build more complex tokens. In this post, we will take Orchard tokens functonality to another level of dynamicity, by implementing new token called \"Dictionary\", to be able to support any type of objects, with dynamic chain building.</p>",
+          "pubDate": "Sun, 04 Sep 2016 11:33:46 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35789"
+          }
+        },
+        {
+          "title": "Thoughts: On Orchard CMS 2.0",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35788",
+          "description": "<p>If you try to experiment the current Pre-Alpha of Orchard CMS 2.0, you will notice that the main focus in this version is on two aspects, architecture (Decoupling and Abstraction) and performance (Database Structure), and this is what we will briefly talk about in this post (will be explained deeper in the upcoming posts).</p>",
+          "pubDate": "Sun, 04 Sep 2016 11:32:46 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35788"
+          }
+        },
+        {
+          "title": "Modifying Orchard's Host.config file on publish",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35787",
+          "description": "<p>We have been gradually moving things to Azure over the last year, including some of Orchard installations. Orchard plays nice with Azure and setting up Azure services like blob storage to complement your Azure deployment are surprisingly simple. You can use blob settings to store media, but also to store your App_Data configuration. To store Orchard's appdata in blob storage you need to make some changes to the Host.config file, however since the solution I work from is also used to deploy to sites that use s3 and just the file system to store&nbsp;App_Data&nbsp;, I thought I could make a little transform to handle this.</p>",
+          "pubDate": "Sun, 04 Sep 2016 11:31:08 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35787"
+          }
+        },
+        {
+          "title": "Troubleshooting IIS AppPool crashes (status 503) after Windows 10 Anniversary Update",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35786",
+          "description": "<p>Installing the recently released Anniversary Update (version 1607) of Windows 10 seems to destabilize IIS by shutting down Application Pools, thus resulting in a 503 error when trying to run an application, which is caused by some DLLs failing to load when the worker process starts. Fortunately, the lovely folks of the interwebz are coming to the rescue!</p>",
+          "pubDate": "Sun, 04 Sep 2016 11:27:39 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35786"
+          }
+        },
+        {
+          "title": "Five reasons why I love Orchard CMS",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35785",
+          "description": "<p>There are many Content Management Systems (CMS) available nowadays and as Front-End developer, I&rsquo;ve tested a bunch of them. &nbsp;When setting up a new website, there are a lot of factors to consider, like your design and domain name, but the most important of all is choosing the right platform. This is crucial and not a decision to be taken lightly.</p>
+<p>There are three ways you can use Orchard CMS...</p>",
+          "pubDate": "Wed, 27 Jul 2016 21:07:29 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35785"
+          }
+        },
+        {
+          "title": "How to install SQL Server 2016 (and SSMS 2016)",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35784",
+          "description": "<p>As an update to our earlier how-to for setting up a developer environment with IIS and SQL Server 2014 for Orchard, here's a step-by-step guide for setting up SQL Server 2016 and SQL Server Management Studio 2016 on your machine.</p>",
+          "pubDate": "Fri, 22 Jul 2016 11:49:32 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35784"
+          }
+        },
+        {
+          "title": "Inject shapes into orchard zones",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35783",
+          "description": "<p>One of the cool things about orchard is how much you can customize it. One cool example that I ran across and wanted to remember was injecting shapes into zones in the layout. How would a person inject shapes into different zones? Here is how.</p>",
+          "pubDate": "Fri, 22 Jul 2016 11:47:43 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35783"
+          }
+        },
+        {
+          "title": "Using the C# Scripting Workflow Activity in Orchard 1.10 and Below",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35781",
+          "description": "<p>This workflow activity is pretty awesome. You can write C# then set a number of different outcomes based on your own custom logic.</p>",
+          "pubDate": "Sat, 02 Jul 2016 13:17:31 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35781"
+          }
+        },
+        {
+          "title": "Orchard Shapes, Alternates and Shape Morphing",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35780",
+          "description": "<p>I was recently trying to fix a bug in Orchard and it was suggested to use shape morphing and alternates for the fix. I realized I needed to know more about these areas and started looking around. If you have spent much time trying to learn about Orchard CMS you will soon find that the documentation is great. This is why I try to post some of the information I find interesting on this blog.</p>",
+          "pubDate": "Sat, 02 Jul 2016 13:13:41 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35780"
+          }
+        },
+        {
+          "title": "My Very First E-Book: Mastering Orchard Layouts",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35779",
+          "description": "<p>Today I am very excited! Today, we put up my very first e-book up for distribution. It's the book on Orchard Layouts.&nbsp;The book aims to explain everthing there is to know about the Orchard Layouts module for users, themers and developers alike, hopefully providing users with a thorough understanding of the module.</p>",
+          "pubDate": "Sun, 26 Jun 2016 10:56:18 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35779"
+          }
+        },
+        {
+          "title": "Responsive iFrame - Layout Snippet",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35778",
+          "description": "<p>Layout Snippets it's one of my favourites features of Orchard. Orchard 1.10 provides parameterizable snippets, that are more powerful. In this post, I will create a responsive iFrame parameterizable snippet. iFrames are very useful to websites, for example, a YouTube video or a Google Map. You can get the HTML of an iFrame and you can post it to your website, but it will not be responsive.</p>",
+          "pubDate": "Sun, 26 Jun 2016 10:55:07 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35778"
+          }
+        },
+        {
+          "title": "Information Architecture for the New Orchard Website",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35777",
+          "description": "<p>Information Architecture (IA) is all about organising, structuring and the labelling of content. The role of IA is to help the user find information and complete their goals. I've found that IA is by far the most debated areas during the planning phase and therefore I strongly suggest collaboratively working with at least two other people to ensure everything has been covered off.</p>",
+          "pubDate": "Sun, 26 Jun 2016 10:50:19 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35777"
+          }
+        },
+        {
+          "title": "Weekly Podcasts: 04/05/2016 - 21/06/2016",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35776",
+          "description": "<ul>
+<li><a href=\"https://www.youtube.com/watch?v=vocxjAP09pE\" target=\"_blank\">21st of June, 2016</a></li>
+<li><a href=\"https://www.youtube.com/watch?v=IFQNHKMkGbs\" target=\"_blank\">14th of June, 2016</a></li>
+<li>7th of June, 2016 (not yet available)</li>
+<li><a href=\"https://www.youtube.com/watch?v=PY97rJUMryA\" target=\"_blank\">31st of May, 2016</a></li>
+<li><a href=\"https://www.youtube.com/watch?v=mzltg6uQIe4\" target=\"_blank\">24th of May, 2016</a></li>
+<li><a href=\"https://www.youtube.com/watch?v=u7S492xr-5s\" target=\"_blank\">17th of May, 2016</a></li>
+<li><a href=\"https://www.youtube.com/watch?v=LSgjimGwILY\" target=\"_blank\">10th of May, 2016</a></li>
+<li><a href=\"https://www.youtube.com/watch?v=TchksfeJcdg\" target=\"_blank\">3rd of May, 2016</a></li>
+<li><a href=\"https://www.youtube.com/watch?v=-U97CEXg7Bk\" target=\"_blank\">26th of April, 2016</a></li>
+<li>19th of April, 2016 (not recorded)</li>
+<li><a href=\"https://www.youtube.com/watch?v=iTn-jrPtskE\" target=\"_blank\">12th of April, 2016</a></li>
+<li><a href=\"https://www.youtube.com/watch?v=81avbQsnrmE\" target=\"_blank\">5th of April, 2016</a></li>
+</ul>",
+          "pubDate": "Sat, 25 Jun 2016 11:58:00 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35776"
+          }
+        },
+        {
+          "title": "Orchard documentation migration",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35775",
+          "description": "<p>Recently, the Orchard documentation has been migrated to <a href=\"http://www.mkdocs.org/\">MkDocs</a> in order to be hosted easily on <a href=\"http://readthedocs.org/projects/orcharddoc/\">ReadTheDocs</a> with many benefits.</p>",
+          "pubDate": "Sat, 11 Jun 2016 08:31:53 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35775"
+          }
+        },
+        {
+          "title": "User Journeys for the New Orchard Website",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35774",
+          "description": "<p>User journeys are actions our users (see our personas) take to achieve their goals. The primary user goals have already been mapped to the project requirements so we can take those and map out the journeys. I find it good practice to look at the existing user journeys on the current site and then look at how these can be improved. It's not feasible to map out every possible user journey as there could be thousands of scenarios, so it's best to focus on the priority requirements for each of our target users.</p>",
+          "pubDate": "Sat, 28 May 2016 12:40:18 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35774"
+          }
+        },
+        {
+          "title": "Orchardizer Version 0.3.2 released",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35773",
+          "description": "<p>A small update to announce that you can now create 1.10 modules and themes from Orchardizer.</p>
+<p>Get the latest version <a href=\"https://visualstudiogallery.msdn.microsoft.com/6408f2a0-ddb0-4fa1-938e-eef0f3ff73a3\">here</a>!</p>",
+          "pubDate": "Sat, 28 May 2016 12:38:48 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35773"
+          }
+        },
+        {
+          "title": "Another Orchard Visual Studio extension released",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35772",
+          "description": "<p>A long time ago you had to write Orchard code by hand, like cavemen. Then the era of code-writing code came when <a href=\"https://visualstudiogallery.msdn.microsoft.com/6408f2a0-ddb0-4fa1-938e-eef0f3ff73a3\">Orchardizer</a> was released. Now we add our own take on an Orchard developer's Visual Studio extension, introducing <a href=\"https://visualstudiogallery.msdn.microsoft.com/243f1a44-0c6d-4354-ba5f-4a1604a4680f\">Lombiq Orchard Visual Studio Extension</a> with an enterprise-level long name!</p>",
+          "pubDate": "Tue, 24 May 2016 17:33:04 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35772"
+          }
+        },
+        {
+          "title": "Authenticated User - Layout Snippet",
+          "link": "http://orchardproject.net:80/Contents/Item/Display/35771",
+          "description": "<p>Snippets are Layout Elements that you can drag n drop into the layout canvas. You add them to the Views folder of your theme and they have to end with Snippet.cshtml. Layout Snippets it's one of my favourites features of Orchard. &nbsp;</p>",
+          "pubDate": "Tue, 17 May 2016 19:27:06 GMT",
+          "guid": {
+            "-isPermaLink": "true",
+            "#text": "http://orchardproject.net:80/Contents/Item/Display/35771"
+          }
+        }
+      ]
+    }
+  }
+}

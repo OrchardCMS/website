@@ -32,8 +32,6 @@
     "babel-core": "^6.11.4",
     "babel-preset-es2015": "^6.9.0",
     "concurrently": "^2.2.0",
-    "lite-server": "^2.2.2",
-    "typescript": "^2.0.2",
     "css-mqpacker": "^5.0.1",
     "cssnano": "^3.7.3",
     "gulp": "^3.9.1",
@@ -42,6 +40,7 @@
     "gulp-load-plugins": "^1.2.4",
     "gulp-postcss": "^6.1.1",
     "gulp-size": "^2.1.0",
+    "lite-server": "^2.2.2",
     "postcss-bem": "^0.4.1",
     "postcss-bem-linter": "^2.5.1",
     "postcss-cssnext": "^2.7.0",
@@ -52,6 +51,7 @@
     "postcss-reporter": "^1.4.1",
     "postcss-responsive-type": "^0.4.0",
     "run-sequence": "^1.2.2",
+    "typescript": "^2.0.2",
     "typings": "^1.3.2"
   }
 }
